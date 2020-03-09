@@ -15,6 +15,7 @@
 
 </head>
 <body>
+<a href="/Home/Index">Inicio</a>
 <form action="/video/Create" method="post">
 <fieldset>
 
