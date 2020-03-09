@@ -9,7 +9,7 @@
  <meta charset="UTF-8">
     <meta name="description" content="ASP.NET MVC 2 CRUD Video">
     <meta name="Keywords" content="ASP.NET, MVC, FACPYA">
-    <meta name="Author" content="Fernando Enrique Mascorro Garcia">
+    <meta name="Author" content="Armando Enrique Mascorro Garcia">
     <meta name="viewport" content="width=Device-width,Initial-scale=1.0">
     <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
 

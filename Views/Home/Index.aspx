@@ -15,5 +15,6 @@
    <h1>Funciones</h1>
    <a href="/Video/Create">Agregar Video</a>
    <a href="/Video/Delete">Borrar Video</a>
+   <a href="/Video/Edit">Editar Video</a>
 </body>
 </html>
