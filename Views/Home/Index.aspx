@@ -13,6 +13,7 @@
 </head>
 <body>
    <h1>Funciones</h1>
+    <a href="/Video/Watch">Ver Video</a>
    <a href="/Video/Create">Agregar Video</a>
    <a href="/Video/Delete">Borrar Video</a>
    <a href="/Video/Edit">Editar Video</a>

@@ -37,7 +37,7 @@ namespace MVCLaboratorio.Controllers
         BaseHelper.ejecutarSentencia("sp_video_insert", 
         CommandType.StoredProcedure, 
         parametros);
-        RedirectToAction("Index", "Video");
+        RedirectToAction("Index", "Home");
             return View();
         }
         public ActionResult Delete()
@@ -52,7 +52,7 @@ namespace MVCLaboratorio.Controllers
             BaseHelper.ejecutarSentencia("sp_video_delete",
         CommandType.StoredProcedure,
         parametros);
-            RedirectToAction("Index", "Video");
+            RedirectToAction("Index", "Home");
             return View();
         }
         public ActionResult Edit()
@@ -71,10 +71,14 @@ namespace MVCLaboratorio.Controllers
             BaseHelper.ejecutarSentencia("sp_video_edit",
             CommandType.StoredProcedure,
             parametros);
-            RedirectToAction("Index", "Video");
+            RedirectToAction("Index", "Home");
             return View();
         }
-
+        public ActionResult Watch()
+        {
+            ViewData["DataVideo"] = BaseHelper.ejecutarConsulta("SELECT * FROM video", CommandType.Text);
+            return View();
+        }
 
     }
 }
